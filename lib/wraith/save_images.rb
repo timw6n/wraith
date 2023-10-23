@@ -102,6 +102,7 @@ class Wraith::SaveImages
         'no-sandbox',
         'device-scale-factor=1',
         'force-device-scale-factor',
+        'run-all-compositor-stages-before-draw',
         'window-size=1200,1500',
         'hide-scrollbars',
         'ignore-certificate-errors'
