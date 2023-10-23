@@ -98,6 +98,7 @@ class Wraith::SaveImages
       options = Selenium::WebDriver::Chrome::Options.new
       [
         'disable-gpu',
+        'disable-translate',
         'headless',
         'no-sandbox',
         'device-scale-factor=1',
